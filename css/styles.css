@@ -1,0 +1,141 @@
+/*
+font-family: 'Handlee', cursive;
+font-family: 'Archivo', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Lato', sans-serif;
+
+#1d1d1d;
+#212529;
+#343A40;
+#ff2d5a;
+#00fbd8;
+#fefefe;
+#939093;
+*/
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	color: #fefefe;
+	background-color: #212529;
+	font-family: 'Lato', sans-serif;
+	font-size: 19px;
+	text-align: center;
+}
+
+h1 {
+	color: #00fbd8;
+	font-family: 'Handlee', cursive;
+	font-size: 71px;
+	margin-top: 100px;
+	padding-bottom: 40px;
+	text-decoration: underline;
+	text-decoration-color: #ff2d5a;
+}
+
+h2, h3 {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+hr {
+	border-color: #939093;
+	border-style: none;
+}
+
+.middle-container span {
+	border-bottom: dotted 2px #ff2d5a;
+	display: inline-block;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.top-line {
+	margin-top: 7px;
+}
+
+.top-cloud {
+	position: absolute;
+ 	right: 35%;
+	width: 7%;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 35%;
+	width: 7%;
+}
+
+.main-image {
+	margin: 120px 50px 0 0;
+	width: 32%;
+}
+
+/* ---------------------------- */
+/* ----- BODY CONTENT CSS ----- */
+/* ---------------------------- */
+.top-container {
+	padding: 50px 0;
+	position: relative;
+}
+
+.top-container p {
+	font-size: 24px;
+}
+
+.profile img {
+	border: solid 1px #343A40;
+	border-radius: 100%;
+}
+
+.middle-container h2 {
+	color: #00fbd8;
+}
+
+.middle-container .profile, .contact-me {
+	background-color: #343A40;
+}
+
+.profile, .skills, .contact-me, .bottom-container {
+	padding: 71px 0;
+}
+
+.profile h2 {
+	margin: 50px 0 30px;
+}
+
+.skills h2, .contact-me h2, .contact-me p {
+	margin-bottom: 50px;
+}
+
+.skills img {
+	border: solid 1px #343A40;
+	border-radius: 18px;
+	margin-bottom: 20px;
+}
+
+.skills .image-b {
+	margin-top: 71px;
+}
+
+.bottom-container p {
+	color: #939093;
+	margin-top: 30px;
+}
+
+/* --------------------------- */
+/* ----- CSS Link Styles ----- */
+/* --------------------------- */
+
+
